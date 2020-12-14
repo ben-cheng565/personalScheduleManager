@@ -1,0 +1,32 @@
+{
+  "name": "assignment-02-server",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "server": "npm run start",
+    "test": "jest --rootDir server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "moment": "^2.25.3",
+    "mongoose": "^5.9.10",
+    "mongoose-crudify": "^0.2.0",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@types/jest": "^25.2.1",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "jest-fetch-mock": "^3.0.3",
+    "mongodb-memory-server": "^6.5.2"
+  }
+}
